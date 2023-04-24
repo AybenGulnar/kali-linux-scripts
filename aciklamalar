@@ -1,0 +1,13 @@
+Yazdigim scriptlerin aciklamasini bulabilirsiniz:
+
+1. Url hidder= Bu betik, kullanıcının bir phishing URL'si oluşturmasına olanak tanır ve bu URL'yi kullanıcı tarafından belirtilen bir maskeleme alanıyla gizler. Bu, kullanıcının mağdurların güvenini kazanmak için daha fazla sosyal mühendislik taktiği kullanabileceği anlamına gelir. 
+
+2.ipchanger=Bu betik, bir kullanıcının IP adresini değiştirmesine izin verir. Betik, TOR ağına bağlanarak IP adresini değiştirir ve kullanıcının değiştirme sıklığını belirlemesine olanak tanır.
+
+3.sqlinjection=SQL enjeksiyonu zafiyet taraması aracıdır. Betik, bir menü işlevi ve iki farklı SQL enjeksiyon tarama işlevi içerir: tek bir alan adı için tarama yapmak veya bir alan adları listesi için tarama yapmak. İnternet bağlantısının varlığı kontrol edilir ve bir kontrol etmek için bir liste içindeki payloads'lar kullanılır.
+
+4.getinfoip=Bu bir bash scriptidir ve kullanıcının bir IP adresi girerek bu IP adresinin ülke ve ISP (Internet Service Provider) bilgisini almasını sağlar. Kod, find_ip_info adlı bir fonksiyon tanımlar ve bu fonksiyon, verilen IP adresi için http://ip-api.com API'sini çağırarak ülke ve ISP bilgisini alır. Bu bilgiler, jq adlı bir araç kullanılarak JSON çıktısından ayrıştırılır ve sonuç olarak bir dize olarak döndürülür.
+
+5.googledorks=Bu betik, Google hacking işlemlerini gerçekleştirmek için kullanılan bir Bash betiğidir. Kullanıcı, bir etki alanını betiğe bir argüman olarak sağlar ve betik, Google aramaları kullanarak belirli türde sonuçlar elde etmek için önceden tanımlanmış arama sorgularını kullanır. Betik, çeşitli dosya türlerini ve giriş sayfalarını hedefleyerek potansiyel güvenlik açıklarını tespit etmek için kullanılabilir. Betik, kullanıcı dostu bir kullanıcı arabirimine sahip olup, sonuçları belirtilen bir çıktı klasörüne kaydedebilir.
+
+6.findsubdomain=Bu bir bash betiği ve bir site için alt alan adlarını tespit etmek için kullanılabilir. Kullanıcıdan bir site URL'si alınır, ardından bash betiği siteye bağlanır, alt alan adlarını alır ve IP adreslerini çıkarır. Sonuçlar bir dosyaya yazdırılır.
